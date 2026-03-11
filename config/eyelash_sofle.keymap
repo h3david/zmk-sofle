@@ -81,7 +81,7 @@
         ItsAboutRocks: ItsAboutRocks {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(I) &kp T &kp LS(I) &kp S &kp AT &kp B &kp O &kp U &kp T &kp LS(R) &kp O &kp C &kp K &kp S &kp N9 &kp N7 &kp N2 &kp N2 &kp N8>;
+            bindings = <&kp LS(I) &kp T &kp LS(I) &kp S &kp AT &kp B &kp O &kp U &kp T &kp LS(R) &kp O &kp C &kp K &kp S &kp N9 &kp N7 &kp N2 &kp N2 &kp N8>;
             label = "ITSABOUTROCKS";
         };
     };
@@ -133,7 +133,7 @@
 &kp F10  &kp F11  &kp F12  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &ItsAboutRocks
 &trans   &trans   &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
